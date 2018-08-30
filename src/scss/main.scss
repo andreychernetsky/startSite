@@ -1,0 +1,18 @@
+@import "partials/config";
+@import "modules/header-menu";
+@import "modules/slider";
+
+body {
+    background: #F5F5F5;
+    font-family: 'PT Serif', Arial, serif;
+
+}
+
+html {
+    font-size: 16px;
+    /* On smaller screens, decrease text size */
+    @media only screen and (max-width: 300px) {
+        font-size: 10px
+    }
+}
+
