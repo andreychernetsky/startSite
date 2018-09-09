@@ -24,3 +24,11 @@ function showSlides(n) {
     slides[slideIndex-1].style.display = "block";
     dots[slideIndex-1].className += " active";
 }
+
+///burger
+$('.menu-btn').on('click', function(e) {
+    e.preventDefault;
+    $(this).toggleClass('menu-btn_active');
+    $('#left_side').toggleClass('open');
+
+});

@@ -1,0 +1,19 @@
+@import "../partials/config";
+@import "../partials/mixins";
+
+footer img {
+    height: 50px;
+    padding: 5px;
+}
+
+footer a {
+    color: #5f5d67;
+    text-decoration: none;
+    text-align: center;
+    transition: 1.5s;
+}
+
+footer a:hover {
+    background: #bbbbbb;
+    border-radius: 5px;
+}

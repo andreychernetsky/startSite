@@ -1,7 +1,11 @@
 @import "partials/config";
 @import "modules/header-menu";
 @import "modules/slider";
-
+@import "modules/menu-btn";
+@import "modules/top-menu__button";
+@import "modules/icon-bar" ;
+@import "modules/footer";
+@import "modules/left-menu";
 body {
     background: #F5F5F5;
     font-family: 'PT Serif', Arial, serif;
@@ -15,4 +19,5 @@ html {
         font-size: 10px
     }
 }
+
 
