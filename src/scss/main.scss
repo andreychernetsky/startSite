@@ -1,23 +1,28 @@
-@import "partials/config";
-@import "modules/header-menu";
-@import "modules/slider";
-@import "modules/menu-btn";
-@import "modules/top-menu__button";
-@import "modules/icon-bar" ;
-@import "modules/footer";
-@import "modules/left-menu";
-body {
-    background: #F5F5F5;
-    font-family: 'PT Serif', Arial, serif;
+@import "vars";
+@import "mixins";
+@import "fonts";
+@import "vendor";
+@import "settings";
 
-}
+// CUSTOM COMPONENTS STYLES
+@import "./components/header";
+@import "./components/nav";
+@import "./components/shop-nav";
+@import "./components/hero";
+@import "./components/banners";
+@import "./components/main-products";
+@import "./components/product";
+@import "./components/shop-banners";
+@import "./components/hero-catalog";
+@import "./components/breadcrumbs";
+@import "./components/catalog-filter";
+@import "./components/card";
+@import "./components/card-slider";
+@import "./components/footer";
+// .burger {
+//   --burger-width: 40px;
+//   --burger-height: 20px;
+//   --burger-line-height: 2px;
 
-html {
-    font-size: 16px;
-    /* On smaller screens, decrease text size */
-    @media only screen and (max-width: 300px) {
-        font-size: 10px
-    }
-}
-
-
+//   @include burger;
+// }
